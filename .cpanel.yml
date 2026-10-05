@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/lumbre-solar/
+    - export DEPLOYPATH=/home/flowddkt/public_html/lumbre-solar/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
